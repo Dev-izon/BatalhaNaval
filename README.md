@@ -1,2 +1,8 @@
-# BatalhaNaval
-Projeto da Batalha Naval 2° Período, criado por um grupo de aluno com o intuito de consolidar os conhecimentos obtidos durante o segundo semestre de TADS (Tecnólogo em Análise e Desenvolvimento de Sistemas) do Senac-SP.
+<h2>Batalha Naval</h2>
+
+<br>
+
+-Projeto feito usando Java (JDK ver 19)
+-Interface feita no terminal do próprio código
+-Banco de dados MySql para armazenamento de pontuação e nome
+-Matriz e leitor de input
