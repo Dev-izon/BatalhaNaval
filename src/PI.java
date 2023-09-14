@@ -116,7 +116,7 @@ public static int Jogada(int matriz[][], int linha, int coluna) {
     Class.forName("com.mysql.cj.jdbc.Driver");
     conn = DriverManager.getConnection(url, username, password);
 
-    PreparedStatement ps = conn.prepareStatement("UPDATE pontos SET nome = ?, score = ? WHERE id = ?");
+    PreparedStatement ps = conn.prepareStatement("UPDATE pontos SET nome = ?, score = ? WHERE id = ?"); //trocar o id pelo nome pode ser uma possível solução para o update.
     ps.setString(1, a.getNome());
     ps.setInt(2, pontuacao);
     ps.setInt(3, id);
